@@ -15,4 +15,8 @@ for (int i = 0; i < array.Length; i++)
     }
 }
 
+WriteLine("Заданный массив:");
+WriteLine(String.Join(" ", array));
+WriteLine();
+WriteLine("Массив из строк, длина которых <= 3:");
 WriteLine(String.Join(" ", result));
